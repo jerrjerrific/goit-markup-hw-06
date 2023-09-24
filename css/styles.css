@@ -194,7 +194,8 @@ footer a {
 .splash-header button:hover,
 .portfolio-filter button:hover,
 .splash-header button:focus,
-.portfolio-filter button:focus {
+.portfolio-filter button:focus,
+.data-modal-close:hover {
   background: var(--OCEAN, #404bbf);
   color: var(--WHITE, #fff);
   transition-duration: 250ms;
@@ -548,6 +549,7 @@ ul .our-team-icons {
   right: 0;
   bottom: 0;
   margin: auto;
+  color: black;
 }
 
 .is-hidden {
@@ -593,4 +595,4 @@ ul .our-team-icons {
   cursor: pointer;
 }
 
-/* ANIMATION */
+/* MODAL FORM */
