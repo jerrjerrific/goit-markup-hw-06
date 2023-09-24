@@ -658,6 +658,26 @@ ul .our-team-icons {
   margin-bottom: 24px;
 }
 
+.form-button {
+  margin-left: 95px;
+  box-sizing: content-box;
+  display: inline-flex;
+  width: 105px;
+  justify-content: center;
+}
+
+.form-terms {
+  line-height: 16px;
+  text-decoration: underline;
+  color: rgba(77, 90, 229, 1);
+}
+
+.form-field:focus-within {
+  color: rgba(77, 90, 229, 1);
+  border-color: rgba(77, 90, 229, 1);
+  fill: rgba(77, 90, 229, 1);
+  cursor: pointer;
+}
 /* END OF FORM */
 
 /* EXTRA PAGE - PRIVACY POLICY */
