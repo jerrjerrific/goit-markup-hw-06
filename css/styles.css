@@ -170,7 +170,8 @@ footer a {
   font-weight: 700;
 }
 
-.order-button {
+.order-button,
+.form-button {
   border-radius: 4px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -624,12 +625,18 @@ ul .our-team-icons {
   line-height: 14px;
   letter-spacing: 0.04em;
   color: rgba(142, 143, 153, 1);
-  padding-top: 8px;
 }
 
 .form-input {
   height: 40px;
   margin-top: 4px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.form-textarea {
+  margin-top: 4px;
+  margin-bottom: 16px;
 }
 
 .form-input,
@@ -642,15 +649,16 @@ ul .our-team-icons {
   border-radius: 4px;
 }
 
-.form-icon {
+.form-input-icon i {
   position: absolute;
-  left: 12px;
-  top: 60%;
-  fill: var(--primary-black-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 11px 0px 11px 16px;
 }
 
-/* END OF MODAL */
+.form-checkbox {
+  margin-bottom: 24px;
+}
+
+/* END OF FORM */
 
 /* EXTRA PAGE - PRIVACY POLICY */
 .privacy-policy {
