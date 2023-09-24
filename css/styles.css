@@ -596,3 +596,13 @@ ul .our-team-icons {
 }
 
 /* MODAL FORM */
+
+/* EXTRA PAGE - PRIVACY POLICY */
+.privacy-policy {
+  padding: 50px;
+}
+
+.privacy-policy p {
+  margin: 100px;
+  text-align: justify;
+}
