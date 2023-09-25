@@ -635,12 +635,14 @@ ul .our-team-icons {
   height: 40px;
   margin-top: 4px;
   margin-bottom: 8px;
-  text-align: center;
+  padding-left: 38px;
 }
 
 .form-textarea {
   margin-top: 4px;
   margin-bottom: 16px;
+  padding-top: 8px;
+  padding-left: 16px;
 }
 
 .form-input,
@@ -683,6 +685,40 @@ ul .our-team-icons {
   cursor: pointer;
 }
 /* END OF FORM */
+
+/* ADDITIONAL FOOTER SECTION */
+
+.footer-subscribe-title {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding-left: 192px;
+}
+
+.footer-subscribe {
+  padding-top: 16px;
+  padding-left: 60px;
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  padding-left: 16px;
+}
+/* END OF FOOTER */
 
 /* EXTRA PAGE - PRIVACY POLICY */
 .privacy-policy {
