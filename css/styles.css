@@ -195,7 +195,11 @@ footer a {
 .order-button:hover,
 .portfolio-filter button:hover,
 .order-button:focus,
-.portfolio-filter button:focus {
+.portfolio-filter button:focus,
+.form-button:hover,
+.form-button:focus,
+.subscribe-button:hover,
+.subscribe-button:focus {
   background: var(--OCEAN, #404bbf);
   color: var(--WHITE, #fff);
   transition-duration: 250ms;
@@ -655,6 +659,7 @@ ul .our-team-icons {
   /* margin: 0 0 29px 0; */
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  outline: 0;
 }
 
 .form-input-icon i {
@@ -680,15 +685,20 @@ ul .our-team-icons {
   color: rgba(77, 90, 229, 1);
 }
 
-.form-field:focus-within {
-  color: rgba(77, 90, 229, 1);
+.form-field:focus-within,
+.form-input:focus-within,
+.form-textarea:focus-within {
   border-color: rgba(77, 90, 229, 1);
   fill: rgba(77, 90, 229, 1);
   cursor: pointer;
 }
+
 /* END OF FORM */
 
 /* ADDITIONAL FOOTER SECTION */
+.subscribe-form {
+  height: 40px;
+}
 
 .footer-subscribe-title {
   color: rgba(255, 255, 255, 1);
@@ -701,7 +711,6 @@ ul .our-team-icons {
 }
 
 .footer-subscribe {
-  padding-top: 16px;
   padding-left: 60px;
 }
 
@@ -725,12 +734,32 @@ ul .our-team-icons {
   margin-left: 24px;
   margin-top: 16px;
   padding: 8px 24px;
+  border-radius: 4px;
+  background: rgba(77, 90, 229, 1);
+  color: var(--WHITE, #fff);
+  text-align: center;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  gap: 16px;
+  border-width: 0px;
+  height: 40px;
 }
 
-.sub-icon {
+.subButtonIcon {
+  display: inline-flex;
+  margin: 0px;
+}
+
+.footer-sub-icon {
   width: 24px;
   height: 24px;
-  fill: black;
+  stroke: rgba(244, 244, 253, 1);
+  fill: rgba(244, 244, 253, 1);
+  box-shadow: none;
+  align-items: center;
+  margin-left: 24px;
 }
 /* END OF FOOTER */
 

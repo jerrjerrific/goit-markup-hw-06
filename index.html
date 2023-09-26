@@ -129,7 +129,9 @@
                   class="form-checkbox visually-hidden"
                   type="checkbox"
                   name="user-terms"
+                  required
                 />
+                <span class="checkmark"></span>
                 <span
                   >I accept the terms and conditions of the
                   <a
@@ -525,16 +527,26 @@
           </ul>
         </li>
         <li class="footer-subscribe">
-          <input
-            class="footer-input"
-            type="email"
-            name="customer-email"
-            id="footSubscribe"
-            placeholder="E-mail"
-          />
-        </li>
-        <li>
-          <button type="button" class="subscribe-button">Subscribe</button>
+          <form name="subscribe-form">
+            <input
+              class="footer-input"
+              type="email"
+              name="customer-email"
+              id="footSubscribe"
+              placeholder="E-mail"
+              required
+            />
+            <button class="subscribe-button" type="submit">
+              <ul class="subButtonIcon">
+                <li>Subscribe</li>
+                <li>
+                  <svg class="footer-sub-icon">
+                    <use href="images/icons.svg#icon-paper-plane"></use>
+                  </svg>
+                </li>
+              </ul>
+            </button>
+          </form>
         </li>
       </ul>
     </footer>
